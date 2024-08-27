@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="mainBox">
+    
+    <h1>Student Foam</h1>
+    <input type="text"required placeholder="Full Name" id="fname" >
+
+     <input type="Email" placeholder="Type Your Email" id="email"required>
+
+    <div class="radio">
+      <label id="lable"> Gender</label>  
+      <input type="radio" id="male" name="gender" value="Male">
+      <label for="male">Male</label>
+       
+      <input type="radio" id="female" name="gender" value="Female">
+      <label for="female">Female</label>
+        
+  </div>
+<div class="edu">
+        <label id="lable"> Education : </label>
+
+        <select id="edu"required>
+            <option value="" disabled selected hidden>Select your Education</option>
+          <option value="Matriculation">Matriculation</option>
+          <option value="Intermediate">Intermediate</option>
+          <option value="masters">Masters</option>
+        </select>
+</div>
+
+        <textarea name="text" id="discription"placeholder="Adders"required></textarea>
+
+
+<button id="button" onclick="submit()">Submit</button>
+</div>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
